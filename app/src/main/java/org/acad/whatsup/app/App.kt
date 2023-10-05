@@ -1,6 +1,7 @@
 package org.acad.whatsup.app
 
 import android.app.Application
+import org.acad.whatsup.di.appModule
 import org.acad.whatsup.di.localModule
 import org.acad.whatsup.di.remoteModule
 import org.acad.whatsup.di.repoModule
@@ -22,6 +23,7 @@ class App : Application() {
             androidLogger()
             androidContext(this@App)
             modules(
+                appModule,
                 repoModule,
                 useCaseModule,
                 localModule,
