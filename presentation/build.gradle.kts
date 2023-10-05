@@ -15,6 +15,10 @@ android {
         consumerProguardFiles("consumer-rules.pro")
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -36,6 +40,9 @@ android {
 dependencies {
 
     implementation(project(":domain"))
+
+    implementation(libs.rxkotlin)
+    implementation(libs.rxandroid)
 
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
