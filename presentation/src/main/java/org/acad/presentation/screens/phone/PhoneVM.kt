@@ -19,7 +19,5 @@ class PhoneVM(
 
     override fun getDefaultState() = State()
 
-    override fun processInput(input: Input) {
-        TODO("Not implemented")
-    }
+    override fun processInput(input: Input) {  }
 }
