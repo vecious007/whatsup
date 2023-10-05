@@ -6,12 +6,14 @@ junit = "4.13.2"
 androidx-test-ext-junit = "1.1.5"
 espresso-core = "3.5.1"
 appcompat = "1.6.1"
+library-base = "1.11.0"
 material = "1.9.0"
 rxandroid = "3.0.2"
 rxkotlin = "3.0.1"
 koin-android = "3.5.0"
 cicerone = "7.1"
 constraintlayout = "2.1.4"
+rk = "1.11.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -19,6 +21,7 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+library-base = { module = "io.realm.kotlin:library-base", version.ref = "library-base" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
 rxkotlin = { module = "io.reactivex.rxjava3:rxkotlin", version.ref = "rxkotlin" }
@@ -30,4 +33,5 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
+realmKotlin = { id = "io.realm.kotlin", version.ref = "rk" }
 

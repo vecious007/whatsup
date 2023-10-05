@@ -2,6 +2,7 @@
 plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.realmKotlin)
 }
 
 android {
@@ -37,9 +38,12 @@ dependencies {
 
     implementation(project(":domain"))
 
+    implementation(libs.rxkotlin)
+    implementation(libs.rxandroid)
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation (libs.library.base)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
