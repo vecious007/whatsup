@@ -18,6 +18,7 @@ import org.acad.domain.usecase.auth.SendSmsCodeUseCase
 import org.acad.domain.usecase.settings.GetOnBoardedUseCase
 import org.acad.domain.usecase.settings.OnBoardedUseCase
 import org.acad.presentation.screens.main.MainVM
+import org.acad.presentation.screens.onboarding.OnboardingVM
 import org.acad.presentation.screens.phone.PhoneVM
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -58,5 +59,6 @@ val remoteModule = module {
 
 val viewModelModule = module {
     viewModel { PhoneVM(get()) }
-    viewModel { MainVM(get()) }
+    viewModel { MainVM(get(), get()) }
+    viewModel { OnboardingVM(get(), get()) }
 }

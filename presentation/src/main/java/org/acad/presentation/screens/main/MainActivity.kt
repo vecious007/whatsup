@@ -19,14 +19,15 @@ class MainActivity : FragmentActivity() {
     private val navigatorHolder: NavigatorHolder by inject()
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        viewModel
 
         installSplashScreen()
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
 
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        viewModel
     }
 
     override fun onResumeFragments() {
