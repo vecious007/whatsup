@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090844129866",
+    "project_id": "messenger-7a45a",
+    "storage_bucket": "messenger-7a45a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090844129866:android:519db3d4c0a9894a2e84b3",
+        "android_client_info": {
+          "package_name": "org.acad.whatsup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCCO9PGtn__HeD1wjEGTO82hXxPXdMM6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

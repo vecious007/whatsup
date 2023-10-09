@@ -16,6 +16,7 @@ cicerone = "7.1"
 constraintlayout = "2.1.4"
 rk = "1.11.0"
 core-splashscreen = "1.0.1"
+firebase-analytics-ktx = "21.3.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -32,6 +33,7 @@ koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = 
 cicerone = { group = "com.github.terrakok", name = "cicerone", version.ref = "cicerone" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "core-splashscreen" }
+firebase-analytics-ktx = { group = "com.google.firebase", name = "firebase-analytics-ktx", version.ref = "firebase-analytics-ktx" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
