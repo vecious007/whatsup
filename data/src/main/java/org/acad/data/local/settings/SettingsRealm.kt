@@ -7,8 +7,8 @@ import io.realm.kotlin.types.annotations.PrimaryKey
 /**
  * Created by Acad Bek on 10/5/2023.
  */
-data class SettingsRealm(
+class SettingsRealm : RealmObject {
     @PrimaryKey
-    val id: ObjectId = ObjectId.create(),
-    val onBoarded: Boolean = false
-) : RealmObject
+    var id: ObjectId = ObjectId.create()
+    var onBoarded: Boolean = false
+}

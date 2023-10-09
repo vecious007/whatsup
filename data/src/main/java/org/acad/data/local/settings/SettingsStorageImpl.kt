@@ -23,7 +23,7 @@ class SettingsStorageImpl(
     override fun onBoarded(): Completable = getSettings().flatMapCompletable {
         Completable.fromCallable {
             realm.writeBlocking {
-                copyToRealm(it.copy(onBoarded = true), UpdatePolicy.ALL)
+                copyToRealm(it.apply{ onBoarded = true }, UpdatePolicy.ALL)
             }
         }
     }

@@ -50,6 +50,7 @@ dependencies {
     implementation(libs.koin.android)
     implementation(libs.cicerone)
     implementation(libs.constraintlayout)
+    implementation(libs.androidx.core.splashscreen)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
