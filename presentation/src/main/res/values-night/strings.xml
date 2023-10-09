@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fragment_onboarding_continue">continue</string>
+    <string name="sign_in">sign in</string>
+    <string name="phone_number">Phone number</string>
+    <string name="phone_title">Phone Number*</string>
+    <string name="account_title">Sign in to your account</string>
+    <string name="enter_otp_code">Enter OTP code</string>
+    <string name="verify_code">verify</string>
+    <string name="code_sent_to">Code has been sent to %s</string>
+    <string name="invalid_code">Invalid OTP code</string>
 </resources>

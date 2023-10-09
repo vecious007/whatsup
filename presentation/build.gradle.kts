@@ -43,6 +43,7 @@ dependencies {
 
     implementation(libs.rxkotlin)
     implementation(libs.rxandroid)
+    implementation (libs.otpView)
 
     implementation(libs.core.ktx)
     implementation(libs.appcompat)

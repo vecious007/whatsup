@@ -8,6 +8,7 @@ espresso-core = "3.5.1"
 appcompat = "1.6.1"
 library-base = "1.11.0"
 material = "1.9.0"
+otpView = "1.1.2-ktx"
 rxandroid = "3.0.2"
 rxkotlin = "3.0.1"
 koin-android = "3.5.0"
@@ -24,6 +25,7 @@ espresso-core = { group = "androidx.test.espresso", name = "espresso-core", vers
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 library-base = { module = "io.realm.kotlin:library-base", version.ref = "library-base" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+otpView = { module = "com.github.aabhasr1:OtpView", version.ref = "otpView" }
 rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
 rxkotlin = { module = "io.reactivex.rxjava3:rxkotlin", version.ref = "rxkotlin" }
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin-android" }
