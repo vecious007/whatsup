@@ -42,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:length="5"
+        app:length="6"
         app:otp_text_size="24dp"
         app:width="40dp" />
 

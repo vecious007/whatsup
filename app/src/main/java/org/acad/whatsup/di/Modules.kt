@@ -15,6 +15,7 @@ import org.acad.data.repo.SettingsRepoImpl
 import org.acad.domain.repo.AuthRepo
 import org.acad.domain.repo.SettingsRepo
 import org.acad.domain.usecase.auth.SendSmsCodeUseCase
+import org.acad.domain.usecase.auth.VerifyCodeUseCase
 import org.acad.domain.usecase.settings.GetOnBoardedUseCase
 import org.acad.domain.usecase.settings.OnBoardedUseCase
 import org.acad.presentation.screens.main.MainVM
@@ -46,6 +47,7 @@ val useCaseModule = module {
     single { SendSmsCodeUseCase(get()) }
     single { OnBoardedUseCase(get()) }
     single { GetOnBoardedUseCase(get()) }
+    single { VerifyCodeUseCase(get()) }
 }
 
 val localModule = module {

@@ -5,9 +5,9 @@ import org.acad.domain.repo.AuthRepo
 /**
  * Created by Acad Bek on 9/13/2023.
  */
-class SendSmsCodeUseCase(
+class VerifyCodeUseCase(
     private val authRepo: AuthRepo
 ) {
-    operator fun invoke(phone: String) = authRepo.sendSmsCode(phone)
+    operator fun invoke(code: String) = authRepo.verify(code)
 
 }
